@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "deployAliases": {
+    "add-zkapp": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/add-zkapp.json",
+      "feepayerKeyPath": "/Users/aliekmekci/.cache/zkapp-cli/keys/admin.json",
+      "feepayerAlias": "admin",
+      "fee": "0.1",
+      "smartContract": "Add"
+    },
+    "zkapp-add": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/zkapp-add.json",
+      "feepayerKeyPath": "/Users/aliekmekci/.cache/zkapp-cli/keys/add.json",
+      "feepayerAlias": "add",
+      "fee": "0.1",
+      "smartContract": "Add"
+    }
+  }
+}
