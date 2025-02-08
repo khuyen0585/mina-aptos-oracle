@@ -1,0 +1,16 @@
+[package]
+name = "mina-oracle"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mina = "0x025a0ee2dd6a2f49539431c02c9195472e635ba49d1741ab09915847aa1d8055"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
